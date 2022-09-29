@@ -15,8 +15,8 @@ public final class StringUtility {
     /**
      * Reverses the given word.
      * 
-     * @param word
-     * @return reversedWord
+     * @param word String to be reversed
+     * @return reversedWord reversed string
      */
 
     public static String reverse(String word) {
@@ -35,9 +35,9 @@ public final class StringUtility {
     /**
      * Checks if the given word is a palindrome.
      * 
-     * @param word
+     * @param word input string
      * 
-     * @return isPalindrome
+     * @return isPalindrome true if word is palindrome, false otherwise
      */
 
     public static boolean isPalindrome(String word) {
@@ -52,9 +52,9 @@ public final class StringUtility {
     /**
      * Removes the character at the given index and returns the new string.
      * 
-     * @param word
-     * @param index
-     * @return newWord
+     * @param word input string
+     * @param index index to remove
+     * @return newWord string to return without the character at the specified index
      */
 
     public static String removeCharacter(String word, int index) {
@@ -79,9 +79,9 @@ public final class StringUtility {
      * same, it counts the occurrence of each in both strings. Since ASCII has 256
      * different characters, we use character range as 256.
      * 
-     * @param word1
-     * @param word2
-     * @return isAnagram
+     * @param word1 input string to check
+     * @param word2 input string to check
+     * @return isAnagram true if they are anagram, false otherwise.
      */
 
     public static boolean isAnagram(String word1, String word2) {
@@ -108,8 +108,8 @@ public final class StringUtility {
     /**
      * Capitalizes the first character of a string.
      * 
-     * @param word
-     * @return capitalizedWord
+     * @param word input string
+     * @return capitalizedWord capitalized string 
      */
 
     public static String capitalize(String word) {
@@ -127,9 +127,9 @@ public final class StringUtility {
     /**
      * Counts occurence of the wanted character.
      * 
-     * @param word
-     * @param character
-     * @return count
+     * @param word input string
+     * @param character character to count occurence
+     * @return count occurence of the wanted character
      */
     public static int countCharacter(String word, char character) {
         int count = 0;
